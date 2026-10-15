@@ -1,0 +1,53 @@
+/* Simple beginner CSS for my portfolio */
+body {
+    background-color: #d9eaf7;
+    color: #222222;
+    font-family: Arial, sans-serif;
+    text-align: center;
+    margin: 20px;
+}
+
+h1 {
+    color: #17365d;
+}
+
+h2 {
+    color: #246b45;
+}
+
+h3 {
+    color: #17365d;
+}
+
+a {
+    color: #075ca8;
+}
+
+a:visited {
+    color: #704191;
+}
+
+hr {
+    border: 1px solid #8fb8d8;
+}
+
+img {
+    border: 2px solid #075ca8;
+}
+
+table {
+    margin-left: auto;
+    margin-right: auto;
+    border-collapse: collapse;
+    background-color: #eef6fc;
+    color: #222222;
+}
+
+th {
+    background-color: #b9d8ef;
+    color: #17365d;
+}
+
+th, td {
+    padding: 8px;
+}
