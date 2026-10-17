@@ -1,53 +1,115 @@
-/* Simple beginner CSS for my portfolio */
+
 body {
-    background-color: #d9eaf7;
-    color: #222222;
+    background-color: #fff4e6;
+    color: #30364f;
     font-family: Arial, sans-serif;
     text-align: center;
-    margin: 20px;
+    margin: 25px;
+    line-height: 1.6;
 }
 
 h1 {
-    color: #17365d;
+    color: #ffffff;
+    background-color: #245b68;
+    border: 3px solid #17434d;
+    padding: 18px;
+    border-radius: 12px;
 }
 
 h2 {
-    color: #246b45;
+    color: #b64253;
+    background-color: #ffe0d6;
+    border-left: 5px solid #e76f51;
+    border-bottom: 2px solid #e76f51;
+    padding: 10px;
+    border-radius: 6px;
 }
 
 h3 {
-    color: #17365d;
+    color: #65469a;
+}
+
+p {
+    font-size: 16px;
+    line-height: 1.8;
 }
 
 a {
-    color: #075ca8;
+    display: inline-block;
+    color: #ffffff;
+    background-color: #65469a;
+    text-decoration: none;
+    border: 2px solid #50347e;
+    padding: 8px 14px;
+    margin: 5px;
+    border-radius: 7px;
+}
+
+a:hover {
+    background-color: #e76f51;
+    color: #ffffff;
+    border-color: #b64253;
 }
 
 a:visited {
-    color: #704191;
+    color: #ffffff;
 }
 
 hr {
-    border: 1px solid #8fb8d8;
+    border: none;
+    border-top: 2px solid #d9b99b;
+    margin: 25px 0;
 }
 
 img {
-    border: 2px solid #075ca8;
+    max-width: 90%;
+    height: auto;
+    border: 4px solid #2a9d8f;
+    border-radius: 12px;
 }
 
 table {
-    margin-left: auto;
-    margin-right: auto;
+    width: 85%;
+    margin: 20px auto;
     border-collapse: collapse;
-    background-color: #eef6fc;
-    color: #222222;
+    background-color: #ffffff;
+    border: 2px solid #245b68;
 }
 
 th {
-    background-color: #b9d8ef;
-    color: #17365d;
+    background-color: #245b68;
+    color: #ffffff;
+    padding: 12px;
+    border: 1px solid #17434d;
 }
 
-th, td {
-    padding: 8px;
+td {
+    background-color: #e8f5f2;
+    color: #30364f;
+    padding: 12px;
+    border: 1px solid #91c9bd;
+}
+
+tr:nth-child(even) td {
+    background-color: #fce8df;
+}
+
+video {
+    max-width: 90%;
+    height: auto;
+    border: 4px solid #65469a;
+    border-radius: 10px;
+}
+
+ul {
+    display: inline-block;
+    text-align: left;
+    background-color: #e8f5f2;
+    border: 2px solid #91c9bd;
+    border-radius: 8px;
+    padding: 20px 35px;
+}
+
+li {
+    padding: 5px;
 }
